@@ -1,0 +1,11 @@
+<suite name="Star Wars-API Test Suite" verbose="1"
+	configfailurepolicy="continue">
+	<test name="Star Wars- Base API Get Request Tests"
+		desc="Content Checking for Film Page">
+		<parameter name="URL" value="https://swapi.co/api/planets/2" />
+		<classes>
+			<class
+				name="epam.interview.sp.sushant_test_task.api.planet.PlanetAlderaanApiURIValidations" />
+		</classes>
+	</test>
+</suite>

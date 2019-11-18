@@ -1,0 +1,14 @@
+<suite name="Star Wars-Home Page Suite" verbose="1"
+	configfailurepolicy="continue">
+	<test name="Star Wars-Home Page Tests for presence of UI Elements"
+		desc="UI Element Checking for Home Page">
+		<parameter name="URL" value="https://www.starwars.com/" />
+		<classes>
+			<class
+				name="epam.interview.sp.sushant_test_task.uivalidation.homepage.ValidatePresenceOfElements" />
+			<class
+				name="epam.interview.sp.sushant_test_task.uivalidation.homepage.ValidatePresenceOfFooterElements" />
+
+		</classes>
+	</test>
+</suite>

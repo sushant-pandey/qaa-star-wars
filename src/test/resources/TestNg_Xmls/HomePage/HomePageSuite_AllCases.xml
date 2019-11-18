@@ -1,0 +1,35 @@
+<suite name="Star Wars-Home Page Suite" verbose="1"
+	configfailurepolicy="continue">
+	<test name="Star Wars-Home Page Tests"
+		desc="Content Checking for Home Page">
+		<parameter name="URL" value="https://www.starwars.com/" />
+		<classes>
+			<class
+				name="epam.interview.sp.sushant_test_task.uivalidation.homepage.HomePageContentValidation" />
+		</classes>
+	</test>
+	<test name="Star Wars-Home Page Tests for links and Navigation"
+		desc="Click the links and Validate the navigation">
+		<parameter name="URL" value="https://www.starwars.com/" />
+		<classes>
+			<class
+				name="epam.interview.sp.sushant_test_task.uivalidation.homepage.navigation.ValidateNavigationToTabs" />
+			<class
+				name="epam.interview.sp.sushant_test_task.uivalidation.homepage.navigation.ValidateClickingOfSocialMediaLinksInHeader" />
+			<class
+				name="epam.interview.sp.sushant_test_task.uivalidation.homepage.navigation.ValidateNavigationToLoginAndSignUpPopUp" />
+			<class
+				name="epam.interview.sp.sushant_test_task.uivalidation.homepage.navigation.ValidateClickingOfFooterLinks" />
+		</classes>
+	</test>
+	<test name="Star Wars-Home Page Tests for presence of UI Elements"
+		desc="UI Element Checking for Home Page">
+		<parameter name="URL" value="https://www.starwars.com/" />
+		<classes>
+			<class
+				name="epam.interview.sp.sushant_test_task.uivalidation.homepage.ValidatePresenceOfElements" />
+			<class
+				name="epam.interview.sp.sushant_test_task.uivalidation.homepage.ValidatePresenceOfFooterElements" />
+		</classes>
+	</test>
+</suite>

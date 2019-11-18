@@ -1,0 +1,17 @@
+<suite name="Star Wars-Home Page Suite" verbose="1"
+	configfailurepolicy="continue">
+	<test name="Star Wars-Home Page Tests for links and Navigation"
+		desc="Click the links and Validate the navigation">
+		<parameter name="URL" value="https://www.starwars.com/" />
+		<classes>
+			<class
+				name="epam.interview.sp.sushant_test_task.uivalidation.homepage.navigation.ValidateClickingOfThirdPartyLinks" />
+			<class
+				name="epam.interview.sp.sushant_test_task.uivalidation.homepage.navigation.ValidateClickingOfFooterLinks" />
+			<class
+				name="epam.interview.sp.sushant_test_task.uivalidation.homepage.navigation.ValidateNavigationToLoginAndSignUpPopUp" />
+			<class
+				name="epam.interview.sp.sushant_test_task.uivalidation.homepage.navigation.ValidateNavigationToTabs" />
+		</classes>
+	</test>
+</suite>
