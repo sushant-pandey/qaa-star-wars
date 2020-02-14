@@ -1,0 +1,133 @@
+Test Suite
+monitor completed scenarios
+Test Case
+Reusable
+- multiple test suites/plans
+Configuration
+- variable values
+- Browser
+OS also
+mobile devices
+=====
+project - github - parts unlimited
+import- offered by mirosoft
+Free user _ test plan
+orga setting -billing
+- free trial for test plan
+- 30 days
+Test Plans - New test plan
+Name, Area Path, Iteration
+elipsis - new suites
+new work item -> new test case
+c
+
+Test Pan - create test suites
+three types
+static, requirement, query
+static - manual
+new suite - requirement based
+filter , queries
+run query
+all work items in the area/category p
+populated
+-each suite has own test cases
+-can add new test case
+-save and close
+- look at order
+- different order?
+select test case and move it in order
+
+reason - test case state - eg. new
+test steps - actions
+====================
+- execution ->
+test will be tested on configuration
+- change configuration
+elipsis - assign configuration
+All configuration variables
+Browsers & Operating system
+All test configuration
+iPhone X, Windows 10
+- New test configuration ( + )
+name, variables ( name, value)
+
+- assign configuration
+choose configuration
+multiple allowed
+
+- + new configuration variable
+'something
+
+- execute manually
+select a test case
+run for web-application
+test steps open
+follow the steps manually
+create bug
+bug window opens
+capture screenshot
+============
+parameters
+- key values
+- shared across projects and test suites
+- create parameters
+customer details
+- go to test case
+select parameter values
+@Parameters
+@email, @password
+execute as web application
+in steps :- paramters populated
+=================
+Test RUn
+need investigation _ bugs/ failed tests
+=====
+progress report
+date, how many passed, failed
+graphical presentation
+=========
+git link
+=======
+run with options
+automated test using release stage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
